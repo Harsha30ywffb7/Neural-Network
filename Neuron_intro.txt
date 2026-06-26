@@ -1,0 +1,26 @@
+a single neuron (often called a perceptron in its simplest form) is designed to mimic the biological process of taking in signals, weighing their importance, and deciding whether to pass a message along.
+
+Each neuron has inputs + weights + bias.
+weights - The weights represent the strength or importance of each input.
+- A high positive weight means the input is very important for the output.
+- A weight near zero means the input is mostly irrelevant.
+- A negative weight means the input actively pushes the result in the opposite direction.
+
+Bias-
+it's just like a how to much interest to run it.
+- Bias is how easy or hard it is to get the neuron to "fire" before any data even arrives. It sets the "starting line."
+
+Activation function:
+Sigmoid function: - yes or no type classification
+- used in output layer, Sigmoid is for deciding (it's the final judge).
+- it is used to convert any input into [0,1] range o/p as a probability.
+- It maps any input into a tight range of (0, 1), which is essential for models that need to interpret output as a probability of belonging to a specific class.
+
+ReLU: Rectified Linear Unit - max(0,x)
+- ReLU is for learning (it's the workhorse) - used in hidden layers.
+The one I mentioned before, ReLU, works differently. It doesn't have a maximum limit.
+- If the score is negative, it’s 0.  
+- If the score is 10, the output is 10.
+
+
+
